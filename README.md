@@ -27,11 +27,15 @@ From there the user can run the necessary modules as listed below.
 3. Modules
 ----------
 3.1 astronomy.py
+
 	a.gforce(mass1, mass2, separation)
 
 3.2 physics.py
+
 	p.coulomb(charge1, charge2, separation)
+	
 	p.newton2(mass, acceleration)
+	
 	p.newton3(force)
 
 4. Development
