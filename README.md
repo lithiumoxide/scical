@@ -2,8 +2,8 @@ DRAFT README - VERSION DESCRIBED BELOW IN WRITING PHASE
 
 SciCal - Science Calculator
 ===========================
-Conor Farrell [conor.farrell8@gmail.com]
-Released under GNU GPL3.
+Copyright (c) 2012 Conor Farrell [conor.farrell8@gmail.com]
+Released under GNU GPL3 (please see Section 6 and COPYING.md).
 
 1. Introduction
 ---------------
@@ -37,3 +37,22 @@ From there the user can run the necessary modules as listed below.
 4. Development
 --------------
 Feel free to fork this project and expand on the modules as you see fit! Personally, I will focus on astronomy and physics modules for the moment, as they would form the bulk of calculations I would do. Modules can be written for anything that has standardised calculations: biology, chemistry, economics, accounting, engineering, etc etc.
+
+5. To-Do List
+-------------
+- Allow the user to check what modules are loaded by scical.py
+
+6. Licensing
+------------
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
