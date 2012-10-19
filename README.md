@@ -9,7 +9,7 @@ Released under GNU GPL3 (please see Section 6 and COPYING.md).
 ---------------
 SciCal is a work in progress, aimed at simplifying common (but sometimes long) calculations undertaken in science. At the moment, SciCal will work under python3, and from there the user can execute the imported modules and their functions. For example:
 
-	>>> a.gforce(23,56,1200)
+	>>> s.a.gforce(23,56,1200)
 	5.968627777777778e-14
 
 'a' denotes the 'astronomy.py' module (imported as 'a' for shorthand; 'physics.py' imports as 'p', etc.), and gforce(mass1, mass2, separation) is the function that calculates the gravitational force between two bodies.
@@ -20,9 +20,12 @@ Note that all calculations are done in the SI metric system, as all mathematics 
 --------
 Download all files into the same directory. At the command line, run:
 
-	~> python3 scical.py
+	~> python3
+	>>> import scical as s
 
-From there the user can run the necessary modules as listed below.
+From there the user can run the necessary modules as listed below. To run the gforce() function in astronomy, for example, type:
+
+	s.a.gforce(you numbers go here)
 
 3. Modules
 ----------
