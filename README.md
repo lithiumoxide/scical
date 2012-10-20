@@ -1,5 +1,3 @@
-DRAFT README - VERSION DESCRIBED BELOW IN WRITING PHASE
-
 SciCal - Science Calculator
 ===========================
 Copyright (c) 2012 Conor Farrell [conor.farrell8@gmail.com]
@@ -47,7 +45,8 @@ Feel free to fork this project and expand on the modules as you see fit! Persona
 
 5. To-Do List
 -------------
-- Allow the user to check what modules are loaded by scical.py
+- Allow the user to check what modules are loaded by scical.py.
+- Round up numbers to certain number of decimal places by default; allow user to define number of places.
 
 6. Licensing
 ------------
