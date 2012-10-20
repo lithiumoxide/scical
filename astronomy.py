@@ -1,8 +1,11 @@
+# astronomy.py 12.10.2
+
 import math
 
 G = 6.673e-11
-c = 3e8
+c = 2.998e8
 H = 80	# km/s/Mpc
+relg = 1/(sqrt(1-((v/c)**2)))
 
 def gforce(m1, m2, r):
 	''' (int, int, int) -> int
@@ -46,3 +49,18 @@ def hubblevel(d):
 def hubbledis(v):
 	global H
 	return str(v/H) + ' km/s'
+
+def specrelt(t):
+	''' (number) -> float
+	Return relativistic time when given stationary time.
+	'''
+	global relg
+	return str(relg*t) + ' s'
+
+def specrelm(m):
+	global relg
+	return str(relg*m) + ' kg'
+
+def specrelx(x):
+	global relg
+	return str(x/relg) + ' m'
