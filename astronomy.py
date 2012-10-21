@@ -1,4 +1,4 @@
-# astronomy.py 12.10.2
+# astronomy.py 12.10.3
 
 import math
 
@@ -20,7 +20,7 @@ def magabs(mapp, d):
 	''' (number, number) -> float
 	Return absolute magnitude given apparent magnitude and distance (parsecs), mapp and d.
 	'''
-	return str(5 + mapp - (5*math.log(d)))
+	return str(5 + mapp - (5*math.log(d, 10)))
 
 def magapp(mabs, d):
 	''' (number, number) -> float
@@ -58,9 +58,11 @@ def specrelt(t):
 	return str(relg*t) + ' s'
 
 def specrelm(m):
+	''' Return relativistic mass. '''
 	global relg
 	return str(relg*m) + ' kg'
 
 def specrelx(x):
+	''' Return relativistic length.'''
 	global relg
 	return str(x/relg) + ' m'
