@@ -29,15 +29,26 @@ From there the user can run the necessary modules as listed below. To run the gf
 ----------
 3.1 astronomy.py
 
-	a.gforce(mass1, mass2, separation)
+	a.gforce(mass1, mass2, separation)	Gravitational force between two masses
+	a.magabs(magnitude, distance)				Absolute magnitude from apparent magnitude and distance
+	a.magapp(magnitude, distance)				Apparent magnitude from absolute magnitude and distance
+	a.luminosity(flux)									Luminosity given flux
+	a.schwradius(mass)									Calculate Schwarzchild radius of a mass
+	a.hubblevel(distance)								Calculate the velocity of a body given its distance using the Hubble relation
+	a.hubbledis(velocity)								Calculate the distance of a body given its velocity using the Hubble relation
+	a.specrelt(time)										Return relativistic time dt given t
+	a.specrelm(mass)										Return relativistic time dm given m
+	a.specrelx(length)									Return relativistic time dx given x
 
 3.2 physics.py
 
-	p.coulomb(charge1, charge2, separation)
-	
-	p.newton2(mass, acceleration)
-	
-	p.newton3(force)
+	p.coulomb(charge1, charge2, distance)	Calculate force between two charges at a distance
+	p.newton2(mass, acceleration)					Solve Newton's second law to give a force
+	p.newton3(force)											Solve Newton's third law to give a force
+	p.emc2(mass)													Return energy given mass
+	p.phenergywav(wavlength)							Calculates photon energy from wavelength of the photon
+	p.phenergyfreq(frequency)							Calculates photon energy from frequency of the photon
+	decaylife(tau, n)											Return 1/n-life of a particle (i.e n=2 gives half-life, n=3 gives third-life, etc) given mean lifetime of particle before decay, tau
 
 4. Development
 --------------
