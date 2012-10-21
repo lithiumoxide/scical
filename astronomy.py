@@ -1,10 +1,11 @@
 # astronomy.py 12.10.3
 
-import math
+from math import *
 
 G = 6.673e-11
 c = 2.998e8
 H = 80	# km/s/Mpc
+v = 0
 relg = 1/(sqrt(1-((v/c)**2)))
 
 def gforce(m1, m2, r):

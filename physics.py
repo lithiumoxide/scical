@@ -1,6 +1,6 @@
 # physics.py 12.10.2
 
-import math
+from math import *
 
 ke = 8.987552e9
 c = 2.998e8
